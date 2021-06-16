@@ -1,0 +1,15 @@
+{
+  "name": "postman",
+  "version": "1.0.0",
+  "description": "Project",
+  "directories": {
+	  "test": "tests"
+  },
+  "scripts": {
+    "api-tests": "newman run tests/Task_Pet.postman_collection.json"
+  },
+  "author": "Daria Levko",
+  "dependencies": {
+    "newman": "^5.2.3"
+  }
+
